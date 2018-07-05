@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class ListOfUsers extends Component {
   render() {
-    console.log( this.props.items);
+    // console.log( this.props.items);
     this.props.items = [];
     return (
       <div>
@@ -11,11 +11,10 @@ class ListOfUsers extends Component {
        <li key={index}>
           {item.name} : {item.age}
        </li>
-
       )}
       </div>
     );
-  }
+  }   //hello
 }
 
 export default ListOfUsers;
