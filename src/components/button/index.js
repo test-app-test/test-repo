@@ -4,6 +4,7 @@ import React, { Component } from 'react'
   render() {
     return (
       <div>
+        <p>hello!</p>
         <button className="btn">Send</button>
       </div>
     );
