@@ -1,0 +1,18 @@
+.menu{
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu_item:hover {
+  border:1px solid grey;
+  background-color:grey;
+}
+
+h1{
+  color:grey;
+}
+
+li{
+  list-style: none;
+  color: grey;
+}
